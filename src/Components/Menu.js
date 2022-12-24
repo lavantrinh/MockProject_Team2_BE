@@ -14,11 +14,11 @@ function Menu(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/" className="fs-6 fw-bold" id="nav-text">TRANG CHỦ</Nav.Link>
-             <Nav.Link href="/about" className="fs-6 fw-bold" id="nav-text">ABOUT US</Nav.Link>
-            <Nav.Link href="/dien-thoai" className="fs-6 fw-bold" id="nav-text">ĐIỆN THOẠI</Nav.Link>
-                      <Nav.Link href="/may-tinh-bang" className="fs-6 fw-bold" id="nav-text">MÁY TÍNH BẢNG</Nav.Link>
-            <Nav.Link href="/Laptop" className="fs-6 fw-bold" id="nav-text">LAPTOP</Nav.Link>
-            <Nav.Link href="/dong-ho" className="fs-6 fw-bold" id="nav-text">SMART WATCH</Nav.Link>
+             <Nav.Link href="/about" className="fs-6 fw-bold" id="nav-text">ÁO KHOÁC</Nav.Link>
+            <Nav.Link href="/dien-thoai" className="fs-6 fw-bold" id="nav-text">ÁO SƠ MI</Nav.Link>
+                      <Nav.Link href="/may-tinh-bang" className="fs-6 fw-bold" id="nav-text">VÁY ĐẦM</Nav.Link>
+            <Nav.Link href="/Laptop" className="fs-6 fw-bold" id="nav-text">VÁY</Nav.Link>
+            <Nav.Link href="/dong-ho" className="fs-6 fw-bold" id="nav-text">MŨ</Nav.Link>
            
              <Nav.Link href="/contact" className="fs-6 fw-bold" id="nav-text">LIÊN HỆ</Nav.Link>
           </Nav>
