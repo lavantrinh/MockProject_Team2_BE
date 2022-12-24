@@ -6,8 +6,8 @@ function HomeCarousel(props) {
               <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block px-5 mx-5" width={800}
-          src="/images/1.png"
+          className="d-block w-100"
+          src="/images/home_about_1_image.webp"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -17,8 +17,8 @@ function HomeCarousel(props) {
       </Carousel.Item>
       <Carousel.Item>
         <img
-           className="d-block px-5 mx-5" width={800}
-          src="/images/2.png"
+           className="d-block w-100" 
+          src="/images/home_about_2_image.webp"
           alt="Second slide"
         />
 
@@ -29,8 +29,8 @@ function HomeCarousel(props) {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block px-5 mx-5" width={800}
-          src="img/1.png"
+          className="d-block w-100"
+          src="img/new_jacket-05_380bd52865724a16976b7de49c1e040e.jpeg"
           alt="Third slide"
         />
 
