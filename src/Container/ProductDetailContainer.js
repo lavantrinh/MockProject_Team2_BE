@@ -1,9 +1,10 @@
 import React from 'react';
+import ImageCarousel from '../Components/ProductDetail/ImageCarousel';
 
 function ProductDetailContainer(props) {
     return (
         <div>
-            ProductDetail
+          <ImageCarousel/>
         </div>
     );
 }
