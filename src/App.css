@@ -9,14 +9,14 @@
 }
 
 .carousel-caption {
-    right: 5%;
+    /* right: 5%;
     text-align: right;
     max-width: 800px;
     left: auto;
     padding: 5px;
     padding-top: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 50%; */
+    /* transform: translateY(-50%); */
 }
 
 
