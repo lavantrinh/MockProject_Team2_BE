@@ -3,15 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Alert from 'react-bootstrap/Alert';
+
 function AoKhoac(props) {
     return (
         <Container className='mb-5'>
-         
-            <Alert className='my-2 py-2 border-0 rounded-0'>
-         <h4>ÁO KHOÁC</h4> 
-        </Alert>
-            <Row>
+          <h4>ÁO KHOÁC</h4> 
+   
+            <Row className='mt-4'>
                 <Col xs={4} sm={4} xl={4} md={4}>
                     <Card className='border-0'>
                     <Card.Img variant="top" src="/images/jpgoods_61_345589.webp" />
@@ -22,7 +20,12 @@ function AoKhoac(props) {
                             </Card.Text>
                             <Card.Text className='text-center h4 text-danger'>
                                 1.250.000 vnd
-                            </Card.Text>
+                </Card.Text>
+                  <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+               <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-half text-warning"></i>
+              <i class="bi bi-star text-warning"></i>
                     </Card.Body>
                     </Card>
                 </Col>
@@ -33,10 +36,15 @@ function AoKhoac(props) {
           <Card className='border-0 rounded-0'>
             <Card.Img className='rounded-0' variant="top" src="/images/jpgoods_45_344649.webp" />
             <Card.Body>
-              <Card.Text>Lorem ipsum dolor sit amet</Card.Text>
-              <Card.Text className='text-center text-danger fw-bold'>
+              <Card.Text  className='my-1'>Lorem ipsum dolor sit amet</Card.Text>
+              <Card.Text className='text-center text-danger fw-bold my-1'>
                950.999 vnd
               </Card.Text>
+                <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-fill text-warning"></i>
+               <i class="bi bi-star-fill text-warning"></i>
+              <i class="bi bi-star-half text-warning"></i>
+              <i class="bi bi-star text-warning"></i>
             </Card.Body>
           </Card>
         </Col>

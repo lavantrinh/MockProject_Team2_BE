@@ -6,13 +6,13 @@ function HomeCarousel(props) {
               <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="" id='slideimage'
           src="/images/home_about_1_image.webp"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 className='text-dark display-1 animate__animated animate__bounceInLeft'>Clothes for your best moments</h3>
-         <p className='text-dark h3 animate__animated animate__bounceInRight animate__delay-1s'>Make people fall in love with your clothes</p>
+          <h3 className='text-danger display-1 animate__animated animate__bounceInLeft'>Clothes for your best moments</h3>
+         <p className='text-danger h3 animate__animated animate__bounceInRight animate__delay-1s'>Make people fall in love with your clothes</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

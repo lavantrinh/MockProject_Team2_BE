@@ -19,10 +19,13 @@
     /* transform: translateY(-50%); */
 }
 
+#slideimage {
+    min-height: 95vh;
+}
 
-/* body {
-    font-family: 'Barlow', sans-serif;
-} */
+body {
+    font-family: 'Nunito', sans-serif;
+}
 
 #NavCard {
     background-color: rgb(1, 80, 171);
