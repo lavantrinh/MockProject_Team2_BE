@@ -9,8 +9,8 @@ function ProductDetailContainer(props) {
       <div>
         <Container className='my-5 py-4'>
       <Row>
-            <Col xs={6} sm={6} xl={6}><ImageCarousel /></Col>
-             <Col xs={6} sm={6} xl={6}><ProductInfo /></Col>
+            <Col xs={5} sm={5} xl={5}><ImageCarousel /></Col>
+             <Col xs={7} sm={7} xl={7}><ProductInfo /></Col>
       </Row>
     </Container>
           
