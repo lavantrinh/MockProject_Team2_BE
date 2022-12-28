@@ -12,17 +12,17 @@ let routes = (
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/products/:id" element={<ProductDetail />} />
-<<<<<<< HEAD
+
   
     {/* <Route path="*" element={<Error />} /> */}
-=======
+
     <Route path="/signin" element={<SignIn />} />
     <Route path="/admin/signin" element={<AdminSignIn />} />
     <Route path="/signup" element={<SignUp />} />
     <Route path="/signup" element={<SignUp />} />
     <Route path="/resetPassword" element={<ResetPassword />} />
     <Route path="error" element={<ErrorPage />} />
->>>>>>> 28564ed718b25e1b169e937e143eb88ad4dc6380
+
   </Routes>
 );
 
