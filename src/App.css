@@ -1,22 +1,11 @@
-.carousel {
+#carousel {
     height: 100vh;
     width: 100%;
     overflow: hidden;
 }
 
-.carousel .carousel-inner {
+#carousel #carousel-inner {
     height: 100%;
-}
-
-.carousel-caption {
-    /* right: 5%;
-    text-align: right;
-    max-width: 800px;
-    left: auto;
-    padding: 5px;
-    padding-top: 10px;
-    top: 50%; */
-    /* transform: translateY(-50%); */
 }
 
 #slideimage {
@@ -82,6 +71,9 @@ body {
     text-indent: initial;
 }
 
-#myCarousel1 .carousel-indicators>li.active img {
+
+/* #myCarousel1 .carousel-indicators>li.active img {
     opacity: 0.7;
-}
+} */
+
+@import "~react-image-gallery/styles/css/image-gallery.css";

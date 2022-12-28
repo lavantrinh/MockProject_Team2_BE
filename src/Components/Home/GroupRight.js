@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-
-function AoSoMi(props) {
+function GroupRight(props) {
+     let { Catalog } = props;
+    let [CatalogName, setCatalogName] = useState([]);
+    
+     useEffect(() => {
+         setCatalogName(Catalog);
+         
+    }, []);
     return (
-        <Container className='mb-5'>
-            <h4>ÁO SƠ MI</h4>
+         <Container className='mb-5'>
+            <h4>{CatalogName.name}</h4> 
 
             <Row className='mt-4'>
                 <Col xs={8} sm={8} xl={8} md={8}>
@@ -57,4 +63,4 @@ function AoSoMi(props) {
     );
 }
 
-export default AoSoMi;
+export default GroupRight;

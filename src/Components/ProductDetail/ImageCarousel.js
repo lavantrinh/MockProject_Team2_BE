@@ -1,37 +1,25 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+
+
+import ImageGallery from 'react-image-gallery';
 function ImageCarousel(props) {
+  const images = [
+  {
+    original: '/images/221011_category_w_sweat.jpeg',
+    thumbnail: '/images/221011_category_w_sweat.jpeg',
+  },
+  {
+    original: '/images/221011_category_w_cardigan.jpeg',
+    thumbnail: '/images/221011_category_w_cardigan.jpeg',
+  },
+  {
+    original: '/images/221011_category_w_tops.jpeg',
+    thumbnail: '/images/221011_category_w_tops.jpeg',
+  },
+];
   return (
     <div>
-      <Carousel id='myCarousel1'>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/221011_category_w_sweat.jpeg"
-            alt="First slide"
-          />
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/221011_category_w_cardigan.jpeg"
-            alt="Second slide"
-          />
-
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="/images/221011_category_w_tops.jpeg"
-            alt="Third slide"
-          />
-
-
-        </Carousel.Item>
-    
-      </Carousel>
+      <ImageGallery items={images} />    
     </div>
   );
 }
