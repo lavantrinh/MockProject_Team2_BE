@@ -1,6 +1,7 @@
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
 import "..//App";
 import error from ".././assets/img/error.png";
+import { Link } from "react-router-dom";
 
 function ResetPassword() {
   return (
@@ -25,9 +26,11 @@ function ResetPassword() {
               </Card.Text>
             </div>
             <div className="mt-4 text-center">
-              <Button variant="primary" type="submit">
-                Back to homepage
-              </Button>
+              <Link to="/">
+                <Button variant="primary" type="submit">
+                  Back to homepage
+                </Button>
+              </Link>
             </div>
             <div className="mt-4 text-center"></div>
           </Card>
